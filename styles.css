@@ -85,6 +85,9 @@ footer b::after{content:"";position:absolute;left:4px;right:4px;bottom:0;height:
 .service-details strong{display:block;color:var(--gold);font:700 10px var(--serif);letter-spacing:.1em;text-transform:uppercase}
 .social-link{color:var(--gold)!important;font:700 10px var(--serif);letter-spacing:.1em;text-transform:uppercase}
 .social-link span{font-size:13px}
+.social-icon{display:inline-grid;place-items:center;width:19px;height:19px;margin-right:4px;border:1px solid currentColor;border-radius:50%;font:700 12px/1 Arial,sans-serif;letter-spacing:0}
+.instagram-icon{font-size:16px;line-height:16px}
+.whatsapp-icon{font-size:15px;transform:rotate(-28deg)}
 .brand{line-height:0}
 .brand-logo{width:210px;height:auto;max-height:58px;object-fit:contain;border:1px solid #82909a66;border-radius:8px;box-shadow:0 3px 12px #0006}
 footer b{line-height:0}
