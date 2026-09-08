@@ -78,6 +78,9 @@ footer b::after{content:"";position:absolute;left:4px;right:4px;bottom:0;height:
 .comparison{background:linear-gradient(135deg,#e8dbc1,#dceff5)}
 .gallery{background:linear-gradient(135deg,#0c4b6d,#08283f)}
 .contact{background:linear-gradient(135deg,#061a2b,#0c5077)}
+.site-header .brand-logo{display:block;width:230px;height:50px;max-height:none;object-fit:contain;border:0;border-radius:0;box-shadow:none;filter:drop-shadow(0 1px 2px #000) brightness(1.16) contrast(1.08);mix-blend-mode:normal;opacity:1}
+footer b img{width:230px;height:50px;max-height:none;object-fit:contain;border:0;border-radius:0;box-shadow:none;filter:drop-shadow(0 1px 2px #000) brightness(1.16) contrast(1.08);mix-blend-mode:normal;opacity:1}
+@media(max-width:700px){.site-header .brand-logo,footer b img{width:180px;height:42px}}
 .checkbox-label{display:flex!important;align-items:center;gap:9px;color:#d9e8ed!important;font:12px var(--body)!important;letter-spacing:0!important;text-transform:none!important;cursor:pointer}
 #quote-form .checkbox-label input{width:16px;height:16px;margin:0;accent-color:var(--gold)}
 .service-details{display:grid;gap:10px;margin-top:7px;color:var(--muted);font-size:12px}
