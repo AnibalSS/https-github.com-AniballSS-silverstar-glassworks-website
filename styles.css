@@ -78,6 +78,8 @@ footer b::after{content:"";position:absolute;left:4px;right:4px;bottom:0;height:
 .comparison{background:linear-gradient(135deg,#e8dbc1,#dceff5)}
 .gallery{background:linear-gradient(135deg,#0c4b6d,#08283f)}
 .contact{background:linear-gradient(135deg,#061a2b,#0c5077)}
+.checkbox-label{display:flex!important;align-items:center;gap:9px;color:#d9e8ed!important;font:12px var(--body)!important;letter-spacing:0!important;text-transform:none!important;cursor:pointer}
+#quote-form .checkbox-label input{width:16px;height:16px;margin:0;accent-color:var(--gold)}
 .brand{line-height:0}
 .brand-logo{width:210px;height:auto;max-height:58px;object-fit:contain;border:1px solid #82909a66;border-radius:8px;box-shadow:0 3px 12px #0006}
 footer b{line-height:0}
