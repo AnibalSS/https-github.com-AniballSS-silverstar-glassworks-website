@@ -83,6 +83,8 @@ footer b::after{content:"";position:absolute;left:4px;right:4px;bottom:0;height:
 .service-details{display:grid;gap:10px;margin-top:7px;color:var(--muted);font-size:12px}
 .service-details span{display:block}
 .service-details strong{display:block;color:var(--gold);font:700 10px var(--serif);letter-spacing:.1em;text-transform:uppercase}
+.social-link{color:var(--gold)!important;font:700 10px var(--serif);letter-spacing:.1em;text-transform:uppercase}
+.social-link span{font-size:13px}
 .brand{line-height:0}
 .brand-logo{width:210px;height:auto;max-height:58px;object-fit:contain;border:1px solid #82909a66;border-radius:8px;box-shadow:0 3px 12px #0006}
 footer b{line-height:0}
